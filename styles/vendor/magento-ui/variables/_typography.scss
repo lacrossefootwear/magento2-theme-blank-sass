@@ -24,7 +24,7 @@ $font-family__base              : $font-family-name__base, $font-family__sans-se
 $root__font-size                : 62.5% !default; // Defines ratio between root font size and base font size, 1rem = 10px
 $font-size-ratio__base          : 1.4 !default; // Defines ratio of the root font-size to the base font-size
 
-$font-size-unit                 : rem !default; // The unit to which most typography values will be converted by default
+$font-size-unit                 : 1rem !default; // The unit to which most typography values will be converted by default
 $font-size-unit-ratio           : divide($root__font-size * 16 * 0.01, 1%) !default; // Ratio of the root font-size to the font-size unit
 $font-size-unit-convert         : true !default; // Controls whether font-size values are converted to the specified font-size unit
 
