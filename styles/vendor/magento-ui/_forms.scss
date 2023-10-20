@@ -1097,7 +1097,7 @@
 }
 
 @mixin lib-form-field-column-number($_column-number: $form-field-column__number) {
-    @include lib-css(width, 100% / $_column-number);
+    @include lib-css(width, divide(100%, $_column-number));
 }
 
 @mixin _lib-revert-type-block-label-padding(
